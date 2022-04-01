@@ -85,14 +85,7 @@ a[title="Power"] {
   [data-charging="no"] #level::after {
     content: "%"; }
 
-.svg_stroke {
-  fill: none;
-  stroke: black;
-  stroke-miterlimit: 10;
-  stroke-width: 33px; }
 
-.svg_fill {
-  fill: black; }
 
 a:hover .svg_stroke {
   stroke: #adadad; }
@@ -337,6 +330,23 @@ time {
   font-size: 1rem; }
   .paginator a {
     font-size: 1.5rem; }
+
+
+/*
+ACTUALITES
+*/
+
+#actualite-wrapper{
+  display: flex;
+  flex-direction: center;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#act-title{
+  color: #162dab;
+}
+
 
 /*
 ARCHIVES
