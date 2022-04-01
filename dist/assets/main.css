@@ -336,10 +336,23 @@ time {
 ACTUALITES
 */
 
-#actualite-wrapper{
+#actualite-content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#page-logos{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 20%;
+}
+
+#actualite-list{
   display: flex;
   flex-direction: center;
-  width: 70%;
+  width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
