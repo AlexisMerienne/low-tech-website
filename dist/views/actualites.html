@@ -31,7 +31,7 @@
 				<img alt="gt co2 banner" loading="lazy" src="../assets/gtco2banner.jpg"/ width="80%"></p>
 			<h1>Groupe de travail Co2</h1>
 			<div class="subtitle">
-				<a href="https://solar.lowtechmagazine.com/fr">Ce site reprend le design de sobriété proposé par low-tech magazine
+				<a href="https://solar.lowtechmagazine.com/fr">Ce site reprend le design de sobriété proposé par low-tech magazine</a>
 			</div>
 			<nav id="menu">
 				<div id="menu-s">
@@ -131,7 +131,12 @@
 				<p>Alexis Mérienne, étudiant à Polytech Nice Sophia<br/></p>
 	</main>
 	<script>
-		
+        //mobile menu toggle
+		var mobilemenu = document.getElementById('menu-s');
+		mobilemenu.addEventListener('click', function() {
+			console.log('togglemenu');
+			document.getElementById('menu-list').classList.toggle("show");
+		});
 	</script>
 </body>
 
