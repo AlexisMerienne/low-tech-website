@@ -1,0 +1,8 @@
+
+#### 2 avril 2022 :  Outil de calcule de l'impact carbone du numérique
+
+
+Conception d'un outil où l'on peut renseigner son utilisation du numérique d'une journée pour avoir un retour sur sa consommation en GES. 
+
+L'outil est disponible <a href="https://mon-impact-numerique.web.app/" >ici</a>.
+
