@@ -1,5 +1,6 @@
 import markdown
 from engine.__actualite__ import Actualites
+from engine.__htlmparser__ import HtmlParser
 
 
 
@@ -13,8 +14,11 @@ if __name__ == '__main__':
 
     actualites = Actualites()
     actualites.read_file_actualites("actualites")
-    output = actualites.write_html_actualites()
+    output_ac = actualites.write_html_actualites()
+
+    HtmlParser = HtmlParser("apropos/content.md","","")
 
 
-    writehtml('build/actualites.html',output)
 
+    writehtml('build/actualites.html',output_ac)
+    writehtml('build/home.html',HtmlParser.write_html_content_apropos())
