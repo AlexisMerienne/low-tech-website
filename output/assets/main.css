@@ -110,28 +110,28 @@ CATEGORY COLORS
   display: none; }
 
 .act .featured-img, .act p.img, li.act .featured-img, li.act p.img {
-  background-color: #162dab; }
+  background-color: #4a00f2; }
 
 .act .category, li.act .category {
-  color: #162dab; }
+  color: #4a00f2; }
 
 .act .category-act, li.act .category-act {
   display: block; }
 
 .bc .featured-img, .bc p.img, li.bc .featured-img, li.bc p.img {
-  background-color: #d11305; }
+  background-color: #00a8f2; }
 
 .bc .category, li.bc .category {
-  color: #d11305; }
+  color: #00a8f2; }
 
 .bc .category-bc, li.bc .category-bc {
   display: block; }
 
 .enq .featured-img, .enq p.img {
-  background-color: #006951; }
+  background-color: #0073a6; }
 
 .enq .category {
-  color: #006951; }
+  color: #0073a6; }
 
 .enq .category-enq {
   display: block; }
