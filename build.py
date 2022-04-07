@@ -26,10 +26,11 @@ if __name__ == '__main__':
             dithering = Dithering(pic)
             dithering.dither()
 
-    HtmlParser = HtmlParser("apropos/content.md","bilancarbone/content.md","")
+    HtmlParser = HtmlParser("apropos/content.md","bilancarbone/content.md","enquete/content.md")
 
 
 
     writehtml('build/actualites.html',output_ac)
     writehtml('build/home.html',HtmlParser.write_html_content_apropos())
     writehtml('build/bilancarbone.html',HtmlParser.write_html_content_bilancarbone())
+    writehtml('build/enquete.html',HtmlParser.write_html_content_enquete())

@@ -59,13 +59,13 @@ class HtmlParser:
 
     def write_html_content_enquete(self):
 
-        with open("bilancarbone/template/enquete.html") as bc_f:
+        with open("enquete/template/enquete.html") as bc_f:
             bc_html = bc_f.read()
 
         bc_soup = BeautifulSoup(bc_html, 'html.parser')
         
         bc_wrapper = bc_soup.find("div",class_='actualite-wrapper')
-        new_bc = self.openmarkdown(self.content_bc)
+        new_bc = self.openmarkdown(self.content_enquete)
         new_bc = BeautifulSoup(new_bc,'html.parser')
         bc_wrapper.insert(1,new_bc)
         
