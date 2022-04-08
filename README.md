@@ -89,7 +89,7 @@ Il y a deux différents cas pour créer du contenu sur le site :
     Pour ajouter une actualité, il est nécessaire d'ajouter un fichier Markdown dans le dossier content/actualite en suivant ces indications : 
         - Le nom du fichier est la date de création de celui-ci au format : YYYY_MM_DD.md
         - Le fichier doit strictement avoir la structure spécifiée ci-dessous : 
-
+-
        #### Date : Titre
                 
                 Le contenu de l'actualité
