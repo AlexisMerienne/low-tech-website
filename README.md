@@ -13,13 +13,13 @@ Un essai pour refaire le site de présentation du groupe de travail CO2 i3s sous
     3. Deployer le site sur netlify
     
 
-
+<hr>
 
 
 ### I. Structure du projet
 
 
-<hr>
+
 
 
 Le projet est composé de deux dossiers principaux : 
@@ -72,7 +72,24 @@ Le projet est composé de deux dossiers principaux :
             .
             [image_n].jpg
             
-            
+ <hr>
+ 
+ 
+
+### II. Modifier / créer le contenu du site
+
+Le contenu est stocké dans le dossier **content** au format Markdown.  
+Il y a deux différents cas pour créer du contenu sur le site :
+
+    - Ajouter une actualité
+    - Ajouter du texte dans 'à propos', 'bilan carbone', 'enquête'
+    
+#### A. Ajouter une actualité
+
+    Pour ajouter une actualité, il est nécessaire d'ajouter un fichier Markdown dans le dossier content/actualite en suivant ces indications : 
+        - Le nom du fichier est la date de création de celui-ci au format : YYYY_MM_DD.md
+        - Le fichier doit commencer par une entête spécifiée ci-dessous : 
                 
+                #### Date : Titre
 
     
