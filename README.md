@@ -8,7 +8,7 @@ Disponible ici : https://i3s-gt-co2.netlify.app
 #### Quelques chiffres 
 
     
-    Taille du site actuelle disponible sur le site d'i3S : 2,05 Mo
+    Taille du site actuelle disponible sur la page web d'i3S : 2,05 Mo
     
     Taille de cette version :  442 Ko
            - images : 415 Ko
