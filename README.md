@@ -3,6 +3,19 @@ Un essai pour refaire le site de présentation du groupe de travail CO2 i3s sous
 
 Disponible ici : https://i3s-gt-co2.netlify.app
 
+<hr>
+#### Quelques chiffres : 
+    
+    Taille du site actuelle disponible sur le site d'i3S : 2,05 Mo
+    
+    Taille de cette version :  442 Ko
+           - images : 415 Ko
+           - fichiers html : 27,84 Ko
+           
+    Réduction : 1,61 Mo soit 80% du site initiale
+   
+<hr>
+
 ##### Auteur :
 
     - Alexis Mérienne
