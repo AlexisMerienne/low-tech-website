@@ -37,4 +37,36 @@ Le projet est composé de deux dossiers principaux :
     home.html est le fichier à la racine, il correspond à la page 'à propos' qui présente les membres du groupe CO2
     
     
-src 
+src est le dossier dans lequel on va modifier le contenu du site. Il contient par ailleurs les scripts nécessaire au build. 
+    
+    Sa structure est la suivante : 
+        - content
+            - actualites
+                - template
+                - [ACTUALITE_1].md
+                .
+                .
+                .
+                - [ACTUALITE_N].md
+            - apropos
+                - template
+                - content.md
+            - bilancarbone
+                - template
+                - content.md
+            - enquete
+                - template
+                - content.md
+        engine
+            //Quelques fichiers pythons pour construire le site
+        images
+            [image_1].jpg
+            .
+            .
+            .
+            [image_n].jpg
+            
+            
+                
+
+    
