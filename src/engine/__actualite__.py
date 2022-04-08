@@ -15,13 +15,13 @@ class Actualites:
     def read_file_actualites(self,path):
         for f in listdir(path):
              if isfile(join(path, f)):
-                 html_act = SingleActualite(path+"/"+f)
-                 self.actualites_list.append(html_act.get_single_actualite())
+                html_act = SingleActualite(path+"/"+f)
+                self.actualites_list.append(html_act.get_single_actualite())
 
 
     def write_html_actualites(self):
 
-        with open("actualites/template/actualites.html") as actu_f:
+        with open("content/actualites/template/actualites.html") as actu_f:
             actu_html = actu_f.read()
 
         actu_soup = BeautifulSoup(actu_html, 'html.parser')

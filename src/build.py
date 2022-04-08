@@ -18,7 +18,7 @@ def writehtml(file,html):
 if __name__ == '__main__':
 
     actualites = Actualites()
-    actualites.read_file_actualites("actualites")
+    actualites.read_file_actualites("content/actualites")
     output_ac = actualites.write_html_actualites()
     
     for pic in listdir('images'):
@@ -26,7 +26,7 @@ if __name__ == '__main__':
             dithering = Dithering(pic)
             dithering.dither()
 
-    HtmlParser = HtmlParser("apropos/content.md","bilancarbone/content.md","enquete/content.md")
+    HtmlParser = HtmlParser("content/apropos/content.md","content/bilancarbone/content.md","content/enquete/content.md")
 
 
 
