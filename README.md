@@ -6,14 +6,20 @@ Un essai pour refaire le site de présentation du groupe de travail CO2 i3s sous
     - Alexis Mérienne
     
     
-### Documentation : 
+## Documentation : 
 
     1. Structure du repo
     2. Ajouter / modifier le contenu du site
     3. Deployer le site sur netlify
     
-    
-#### I. Structure du projet
+
+
+
+
+### I. Structure du projet
+
+
+<hr>
 
 
 Le projet est composé de deux dossiers principaux : 
@@ -21,7 +27,7 @@ Le projet est composé de deux dossiers principaux :
     output : qui contient les fichiers de notres site
     src: qui contient la partie nécessaire à la construction du site
     
-**output** est le site tel qu'il est déployer sur le serveur : 
+**output** est le site tel qu'il est déployé sur le serveur : 
 
     Sa structure est la suivante :
     
