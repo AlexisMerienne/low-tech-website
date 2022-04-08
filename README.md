@@ -12,7 +12,7 @@ Disponible ici : https://i3s-gt-co2.netlify.app
            - images : 415 Ko
            - fichiers html : 27,84 Ko
            
-    Réduction : 1,61 Mo soit 80% du site initiale
+    Réduction : 1,61 Mo soit -80% du site initiale
    
 <hr>
 
