@@ -131,7 +131,7 @@ Pour déployer le site, il faut d'abord le construire dans output. Le script **d
 
     python deploy.py
     
-Dépedances : 
+Dépendances : 
 
     pip install shutil
     
