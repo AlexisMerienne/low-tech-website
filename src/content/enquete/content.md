@@ -28,5 +28,5 @@ Concernant notre enquête, nous pouvons en tirer les leçons suivantes :
 - l'idée de prendre en compte les enjeux environnementaux dans des appels à projets interne
 - mais à nouveau sans un cadre trop rigide
 - il y a une volonté de prendre en compte le climat dans nos orientations de recherche lorsque cela semble applicable
-- Il y a un besoin d'informer sur l'impact du numérique, qui est au cœur de notre métier ou de notre recherche. Pour cela, nous avons développer un [outil](https://mon-impact-numerique.web.app) calculant l'impact du numérique sur une journée
+- Il y a un besoin d'informer sur l'impact du numérique, qui est au cœur de notre métier ou de notre recherche. 
 
