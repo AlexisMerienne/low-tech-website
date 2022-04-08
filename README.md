@@ -92,6 +92,48 @@ Il y a deux différents cas pour créer du contenu sur le site :
 -
        #### Date : Titre
                 
-                Le contenu de l'actualité
+       Le contenu de l'actualité
+       
+#### B. Ajouter du texte dans dans 'à propos', 'bilan carbone' ou 'enquête'
 
+    Il suffit de modifier les fichier Markdown 'content.md' des dossiers respectifs.
+    
+    Quelques rappels sur la syntaxes Markdown:
+        Pour écrire un titre :  # Gros titre
+                                ## Moyen titre
+                                ### Petit titre
+        Pour ajouter un lien : [mon contenu](le lien)
+        
+    Pour ajouter une image, il faut l'enregistrer dans le dossier images au format JPEG, puis dans le fichier Markdown, l'ajouter avec la syntaxe suivante :
+    
+           ![titre de l'image](../assets/monimage.jpeg)
+           
+    /!\ Il faut spécifier le chemin d'accès :  "../assets/monimage.jpeg". En effet, le script de build va déplacer l'image dans un dossier assets qui sera accessible par les fichie html générés. 
+    
+    
+Un fois que l'on a effectuer tous les changements que l'on souhaite, il faut convertir les fichier Markdown en html. C'est le script **buid.py** qui s'en occupe. 
+Il suffit donc de lancer la commande : 
+
+    python build.py
+
+Les dépendances nécessaires sont :
+
+    pip install markdown
+    pip install BeautifulSoup
+    pip install Pillow
+    
+<hr>
+
+
+### III. Déployer sur netlify 
+
+Pour déployer le site, il faut d'abord le construire dans output. Le script **deploy.py** permet met à jour le dossier output avec les nouvelles versions des fichiers html. 
+
+    python deploy.py
+    
+Dépedances : 
+
+    pip install shutil
+    
+Enfin, le déploiment sur netlify se fait automatiquement depuis Github à chaque fois que l'on push sur ce repo à la branche ***main***
     
