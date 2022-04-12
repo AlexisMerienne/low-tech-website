@@ -30,7 +30,7 @@ class HtmlParser:
 
     def write_html_content_apropos(self):
 
-        with open("content/apropos/template/home.html") as ap_f:
+        with open("src/content/apropos/template/home.html") as ap_f:
             ap_html = ap_f.read()
 
         ap_soup = BeautifulSoup(ap_html, 'html.parser')
@@ -45,7 +45,7 @@ class HtmlParser:
 
     def write_html_content_bilancarbone(self):
 
-        with open("content/bilancarbone/template/bilancarbone.html") as bc_f:
+        with open("src/content/bilancarbone/template/bilancarbone.html") as bc_f:
             bc_html = bc_f.read()
 
         bc_soup = BeautifulSoup(bc_html, 'html.parser')
@@ -59,7 +59,7 @@ class HtmlParser:
 
     def write_html_content_enquete(self):
 
-        with open("content/enquete/template/enquete.html") as bc_f:
+        with open("src/content/enquete/template/enquete.html") as bc_f:
             bc_html = bc_f.read()
 
         bc_soup = BeautifulSoup(bc_html, 'html.parser')

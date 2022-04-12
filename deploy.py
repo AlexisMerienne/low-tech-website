@@ -3,6 +3,9 @@ from os import listdir
 from os.path import isfile, join
 
 if __name__ == '__main__':
+
+    exec(open("./src/main.py").read())
+
     original_ac = r'src/build/actualites.html'
     target_ac = r'output/views/actualites.html'
 

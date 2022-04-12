@@ -21,7 +21,7 @@ class Actualites:
 
     def write_html_actualites(self):
 
-        with open("content/actualites/template/actualites.html") as actu_f:
+        with open("src/content/actualites/template/actualites.html") as actu_f:
             actu_html = actu_f.read()
 
         actu_soup = BeautifulSoup(actu_html, 'html.parser')

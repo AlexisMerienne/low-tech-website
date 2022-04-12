@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 GREYSCALE = True
-PATH = 'images/'
+PATH = 'src/images/'
 
 class Dithering:
 
@@ -78,5 +78,5 @@ class Dithering:
     def dither(self):
         img = self.img
         dim = self.fs_dither(img, 4)
-        path = 'build/assets/'
+        path = 'src/build/assets/'
         dim.save(path+self.im_name+'.jpg'.format(3))
