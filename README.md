@@ -144,7 +144,7 @@ Les dépendances nécessaires sont :
 
 ### III. Déployer sur netlify 
 
-Pour déployer le site, il faut d'abord le construire dans output. Le script **deploy.py** permet met à jour le dossier output avec les nouvelles versions des fichiers html. 
+Pour déployer le site, il faut d'abord le construire dans output. Le script **build.cmd** met à jour le dossier output avec les nouvelles versions des fichiers html. 
 
     python deploy.py
     
