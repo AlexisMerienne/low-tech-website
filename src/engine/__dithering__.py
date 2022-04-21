@@ -77,6 +77,6 @@ class Dithering:
 
     def dither(self):
         img = self.img
-        dim = self.fs_dither(img, 4)
+        dim = self.fs_dither(img, 6)
         path = 'src/build/assets/'
         dim.save(path+self.im_name+'.jpg'.format(3))
